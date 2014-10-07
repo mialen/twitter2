@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2733BB6DE5E043499314F97A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 781D36D226134D0B87D8B93B /* libPods.a */; };
+		E91D378A19DCCCF500AA0CA9 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91D378919DCCCF500AA0CA9 /* MenuViewController.swift */; };
 		E93580D119D8CE4B005B887F /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93580D019D8CE4B005B887F /* MessageViewController.swift */; };
 		E954B72719D8E63100C3A1AE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E954B72619D8E63100C3A1AE /* DetailViewController.swift */; };
+		E979C0F419DCD8F700E1B430 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E979C0F319DCD8F700E1B430 /* MenuCell.swift */; };
 		E9CE8DE319D778D5006586EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CE8DE219D778D5006586EF /* AppDelegate.swift */; };
 		E9CE8DE519D778D5006586EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CE8DE419D778D5006586EF /* ViewController.swift */; };
 		E9CE8DE819D778D5006586EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9CE8DE619D778D5006586EF /* Main.storyboard */; };
@@ -35,8 +37,10 @@
 /* Begin PBXFileReference section */
 		781D36D226134D0B87D8B93B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2E2A25771CB4D49A7813644 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		E91D378919DCCCF500AA0CA9 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		E93580D019D8CE4B005B887F /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		E954B72619D8E63100C3A1AE /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E979C0F319DCD8F700E1B430 /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 		E9CE8DDD19D778D5006586EF /* twitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9CE8DE119D778D5006586EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9CE8DE219D778D5006586EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -166,6 +170,8 @@
 				E9CE8DE419D778D5006586EF /* ViewController.swift */,
 				E9E7B9F119D7DF2C00067D5F /* TweetCell.swift */,
 				E954B72619D8E63100C3A1AE /* DetailViewController.swift */,
+				E91D378919DCCCF500AA0CA9 /* MenuViewController.swift */,
+				E979C0F319DCD8F700E1B430 /* MenuCell.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -305,9 +311,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E954B72719D8E63100C3A1AE /* DetailViewController.swift in Sources */,
+				E91D378A19DCCCF500AA0CA9 /* MenuViewController.swift in Sources */,
 				E9E7B9EB19D794D100067D5F /* User.swift in Sources */,
 				E9E7B9F219D7DF2C00067D5F /* TweetCell.swift in Sources */,
 				E93580D119D8CE4B005B887F /* MessageViewController.swift in Sources */,
+				E979C0F419DCD8F700E1B430 /* MenuCell.swift in Sources */,
 				E9E7B9ED19D7951700067D5F /* Tweet.swift in Sources */,
 				E9E7B9EF19D7ADC700067D5F /* TweetsViewController.swift in Sources */,
 				E9CE8DE519D778D5006586EF /* ViewController.swift in Sources */,

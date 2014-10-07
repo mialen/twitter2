@@ -10,13 +10,16 @@ import UIKit
 
 class TweetsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    
     @IBOutlet weak var tableView: UITableView!
     var tweets: [Tweet]? = []
     var refreshControl:UIRefreshControl!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        var storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        //menuView = storyboard.instantiateViewControllerWithIdentifier("MenuViewController") as UIViewController
 
         // Do any additional setup after loading the view.
         tableView.delegate = self
